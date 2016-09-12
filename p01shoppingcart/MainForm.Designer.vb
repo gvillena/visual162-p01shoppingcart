@@ -116,15 +116,17 @@ Partial Class MainForm
         '
         'btnCerrar
         '
+        Me.btnCerrar.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnCerrar.BackColor = System.Drawing.Color.White
         Me.btnCerrar.FlatAppearance.BorderSize = 0
         Me.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnCerrar.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCerrar.ForeColor = System.Drawing.Color.SteelBlue
-        Me.btnCerrar.Location = New System.Drawing.Point(321, 0)
+        Me.btnCerrar.ImageAlign = System.Drawing.ContentAlignment.TopRight
+        Me.btnCerrar.Location = New System.Drawing.Point(331, 0)
         Me.btnCerrar.Margin = New System.Windows.Forms.Padding(5, 0, 0, 0)
         Me.btnCerrar.Name = "btnCerrar"
-        Me.btnCerrar.Size = New System.Drawing.Size(29, 31)
+        Me.btnCerrar.Size = New System.Drawing.Size(21, 21)
         Me.btnCerrar.TabIndex = 2
         Me.btnCerrar.Text = "X"
         Me.btnCerrar.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -292,9 +294,11 @@ Partial Class MainForm
         Me.lblAbajoL4.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lblAbajoL4.FlatAppearance.BorderSize = 0
         Me.lblAbajoL4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.lblAbajoL4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.lblAbajoL4.ImageKey = "down-arrow-key.png"
         Me.lblAbajoL4.ImageList = Me.ilFlechas
-        Me.lblAbajoL4.Location = New System.Drawing.Point(273, 223)
+        Me.lblAbajoL4.Location = New System.Drawing.Point(273, 221)
+        Me.lblAbajoL4.Margin = New System.Windows.Forms.Padding(3, 0, 3, 3)
         Me.lblAbajoL4.Name = "lblAbajoL4"
         Me.lblAbajoL4.Padding = New System.Windows.Forms.Padding(0, 0, 0, 1)
         Me.lblAbajoL4.Size = New System.Drawing.Size(19, 23)
@@ -306,9 +310,11 @@ Partial Class MainForm
         Me.lblAbajoL3.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.lblAbajoL3.FlatAppearance.BorderSize = 0
         Me.lblAbajoL3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.lblAbajoL3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.lblAbajoL3.ImageKey = "down-arrow-key.png"
         Me.lblAbajoL3.ImageList = Me.ilFlechas
-        Me.lblAbajoL3.Location = New System.Drawing.Point(273, 156)
+        Me.lblAbajoL3.Location = New System.Drawing.Point(273, 154)
+        Me.lblAbajoL3.Margin = New System.Windows.Forms.Padding(3, 0, 3, 3)
         Me.lblAbajoL3.Name = "lblAbajoL3"
         Me.lblAbajoL3.Padding = New System.Windows.Forms.Padding(0, 0, 0, 1)
         Me.lblAbajoL3.Size = New System.Drawing.Size(19, 23)
@@ -317,12 +323,14 @@ Partial Class MainForm
         '
         'lblAbajoL2
         '
-        Me.lblAbajoL2.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.lblAbajoL2.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.lblAbajoL2.FlatAppearance.BorderSize = 0
         Me.lblAbajoL2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.lblAbajoL2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.lblAbajoL2.ImageKey = "down-arrow-key.png"
         Me.lblAbajoL2.ImageList = Me.ilFlechas
-        Me.lblAbajoL2.Location = New System.Drawing.Point(273, 89)
+        Me.lblAbajoL2.Location = New System.Drawing.Point(273, 87)
+        Me.lblAbajoL2.Margin = New System.Windows.Forms.Padding(3, 0, 3, 3)
         Me.lblAbajoL2.Name = "lblAbajoL2"
         Me.lblAbajoL2.Padding = New System.Windows.Forms.Padding(0, 0, 0, 1)
         Me.lblAbajoL2.Size = New System.Drawing.Size(19, 23)
@@ -401,8 +409,8 @@ Partial Class MainForm
         Me.lblCantL2.AutoSize = True
         Me.lblCantL2.Font = New System.Drawing.Font("Segoe UI Semibold", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCantL2.ForeColor = System.Drawing.Color.Black
-        Me.lblCantL2.Location = New System.Drawing.Point(298, 85)
-        Me.lblCantL2.Margin = New System.Windows.Forms.Padding(3, 0, 0, 0)
+        Me.lblCantL2.Location = New System.Drawing.Point(298, 84)
+        Me.lblCantL2.Margin = New System.Windows.Forms.Padding(3, 0, 0, 2)
         Me.lblCantL2.Name = "lblCantL2"
         Me.lblCantL2.Padding = New System.Windows.Forms.Padding(0, 0, 0, 2)
         Me.lblCantL2.Size = New System.Drawing.Size(22, 30)
@@ -416,8 +424,8 @@ Partial Class MainForm
         Me.lblCantL3.AutoSize = True
         Me.lblCantL3.Font = New System.Drawing.Font("Segoe UI Semibold", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCantL3.ForeColor = System.Drawing.Color.Black
-        Me.lblCantL3.Location = New System.Drawing.Point(298, 152)
-        Me.lblCantL3.Margin = New System.Windows.Forms.Padding(3, 0, 0, 0)
+        Me.lblCantL3.Location = New System.Drawing.Point(298, 151)
+        Me.lblCantL3.Margin = New System.Windows.Forms.Padding(3, 0, 0, 2)
         Me.lblCantL3.Name = "lblCantL3"
         Me.lblCantL3.Padding = New System.Windows.Forms.Padding(0, 0, 0, 2)
         Me.lblCantL3.Size = New System.Drawing.Size(22, 30)
@@ -431,8 +439,8 @@ Partial Class MainForm
         Me.lblCantL4.AutoSize = True
         Me.lblCantL4.Font = New System.Drawing.Font("Segoe UI Semibold", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCantL4.ForeColor = System.Drawing.Color.Black
-        Me.lblCantL4.Location = New System.Drawing.Point(298, 219)
-        Me.lblCantL4.Margin = New System.Windows.Forms.Padding(3, 0, 0, 0)
+        Me.lblCantL4.Location = New System.Drawing.Point(298, 218)
+        Me.lblCantL4.Margin = New System.Windows.Forms.Padding(3, 0, 0, 2)
         Me.lblCantL4.Name = "lblCantL4"
         Me.lblCantL4.Padding = New System.Windows.Forms.Padding(0, 0, 0, 2)
         Me.lblCantL4.Size = New System.Drawing.Size(22, 30)
@@ -601,7 +609,8 @@ Partial Class MainForm
         Me.lblArribaL2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.lblArribaL2.ImageKey = "up-arrow-key.png"
         Me.lblArribaL2.ImageList = Me.ilFlechas
-        Me.lblArribaL2.Location = New System.Drawing.Point(325, 89)
+        Me.lblArribaL2.Location = New System.Drawing.Point(325, 87)
+        Me.lblArribaL2.Margin = New System.Windows.Forms.Padding(3, 0, 3, 3)
         Me.lblArribaL2.Name = "lblArribaL2"
         Me.lblArribaL2.Padding = New System.Windows.Forms.Padding(0, 0, 0, 1)
         Me.lblArribaL2.Size = New System.Drawing.Size(19, 23)
@@ -616,7 +625,8 @@ Partial Class MainForm
         Me.lblArribaL3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.lblArribaL3.ImageKey = "up-arrow-key.png"
         Me.lblArribaL3.ImageList = Me.ilFlechas
-        Me.lblArribaL3.Location = New System.Drawing.Point(325, 156)
+        Me.lblArribaL3.Location = New System.Drawing.Point(325, 154)
+        Me.lblArribaL3.Margin = New System.Windows.Forms.Padding(3, 0, 3, 3)
         Me.lblArribaL3.Name = "lblArribaL3"
         Me.lblArribaL3.Padding = New System.Windows.Forms.Padding(0, 0, 0, 1)
         Me.lblArribaL3.Size = New System.Drawing.Size(19, 23)
@@ -631,7 +641,8 @@ Partial Class MainForm
         Me.lblArribaL4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.lblArribaL4.ImageKey = "up-arrow-key.png"
         Me.lblArribaL4.ImageList = Me.ilFlechas
-        Me.lblArribaL4.Location = New System.Drawing.Point(325, 223)
+        Me.lblArribaL4.Location = New System.Drawing.Point(325, 221)
+        Me.lblArribaL4.Margin = New System.Windows.Forms.Padding(3, 0, 3, 3)
         Me.lblArribaL4.Name = "lblArribaL4"
         Me.lblArribaL4.Padding = New System.Windows.Forms.Padding(0, 0, 0, 1)
         Me.lblArribaL4.Size = New System.Drawing.Size(19, 23)
@@ -661,11 +672,11 @@ Partial Class MainForm
         Me.lblProdTitulo.AutoSize = True
         Me.lblProdTitulo.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblProdTitulo.ForeColor = System.Drawing.Color.SteelBlue
-        Me.lblProdTitulo.Location = New System.Drawing.Point(144, 6)
+        Me.lblProdTitulo.Location = New System.Drawing.Point(99, 6)
         Me.lblProdTitulo.Name = "lblProdTitulo"
-        Me.lblProdTitulo.Size = New System.Drawing.Size(63, 19)
+        Me.lblProdTitulo.Size = New System.Drawing.Size(153, 19)
         Me.lblProdTitulo.TabIndex = 1
-        Me.lblProdTitulo.Text = "BOTINES"
+        Me.lblProdTitulo.Text = "CAMISA DE ALGODON"
         '
         'TableLayoutPanel5
         '
